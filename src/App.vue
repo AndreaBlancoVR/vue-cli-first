@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <TitleSample />
+    <JumboSample />
   </div>
 </template>
 
 <script>
 import TitleSample from './components/TitleSample.vue'
+import JumboSample from './components/JumboSample.vue'
 
 export default {
   name: 'App',
   components: {
-    TitleSample
+    TitleSample,
+    JumboSample
   }
 }
 </script>
